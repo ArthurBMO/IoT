@@ -1,11 +1,16 @@
 function mudar()
 {
-    var oi = "mudou!<br>";
+    var ano = 11;
+    var oi = "Feliz 20"+ano+"!<br>";
+    ano++;
     for(i = 0; i < 10; i++)
-        oi = oi + "mudou!<br>";
-
-    document.getElementById("botao").innerHTML = 'oi';
-    //document.querySelector('#botao').innerHTML = 'huhu';
+    {
+        oi = oi + "Feliz 20"+ano+"!<br>";
+        ano++;
+    }
+    document.getElementById("result").innerHTML = oi;
+    //nõ sei se da pra mudar de volta pra surpresa
+    document.getElementById('botao').innerHTML = 'ñ é mais surpresa';
 }
 
 function tOn(x, state)
@@ -43,6 +48,7 @@ function tOn(x, state)
             }
             break;
         case 1:
+            //ele fica permanente mesmo
             document.getElementById('result').innerHTML = "Muhahahahaha, sou o tom"
             switch(x)
             {
