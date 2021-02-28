@@ -4,7 +4,8 @@ function mudar()
     for(i = 0; i < 10; i++)
         oi = oi + "mudou!<br>";
 
-    document.getElementById("result").innerHTML = oi;
+    document.getElementById("botao").innerHTML = 'oi';
+    //document.querySelector('#botao').innerHTML = 'huhu';
 }
 
 function tOn(x, state)
