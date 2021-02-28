@@ -1,0 +1,27 @@
+body
+{
+    background-color:antiquewhite;
+}
+
+a, p
+{
+    color: black;
+}
+
+button
+{
+    margin-left: 10px;
+}
+
+img
+{
+
+    width:200px;
+    height:300px;
+}
+#o_pai_ta_on
+{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}

@@ -1,0 +1,32 @@
+body
+{
+    /*background-color: #ffd1dc;*/
+    background-image: url("https://s3.amazonaws.com/spoonflower/public/design_thumbnails/0603/6754/rpizza_pastel_purple_shop_preview.png");
+    font-family: sans-serif;
+}
+
+a
+{
+
+    font-size: 21px;
+}
+
+a, p, h1
+{
+    color: red;
+    text-shadow: 0.4px 0.4px goldenrod;
+}
+
+button
+{
+    margin-bottom: 10px;
+}
+
+#contents
+{
+    position: absolute;
+    text-align: center;
+    margin:12.5% 36% auto;
+    background-color: rgba(0, 0, 0, 0.8);
+    box-shadow: 0px 0px 20px black;
+}
