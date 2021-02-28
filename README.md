@@ -1,3 +1,3 @@
 # Internet of Things
 
-~ https://arthurbmo.github.io/IoT/
+~ https://arthurbttf.github.io/IoT/
