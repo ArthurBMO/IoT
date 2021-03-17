@@ -1,11 +1,11 @@
 function mudar()
 {
     var ano = 11;
-    var oi = "Feliz 20"+ano+"!<br>";
+    var oi = "Feliz 20" + ano + "!<br>";
     ano++;
-    for(i = 0; i < 10; i++)
+    for (i = 0; i < 10; i++)
     {
-        oi = oi + "Feliz 20"+ano+"!<br>";
+        oi = oi + "Feliz 20" + ano + "!<br>";
         ano++;
     }
     document.getElementById("result").innerHTML = oi;
@@ -19,7 +19,7 @@ function tOn(x, state)
     switch (state)
     {
         case 0:
-            switch(x)
+            switch (x)
             {
                 case 1:
                     image = document.getElementById('luz1');
@@ -50,7 +50,7 @@ function tOn(x, state)
         case 1:
             //ele fica permanente mesmo
             document.getElementById('result').innerHTML = "Muhahahahaha, sou o tom"
-            switch(x)
+            switch (x)
             {
                 case 1:
                     image = document.getElementById('luz1');

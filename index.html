@@ -1,19 +1,25 @@
 <!DOCTYPE html>
 <html>
-  <head>
-      <meta charset="utf-8">
-      <title>Internet of Things</title>
-      <script src="javascript.js"></script>
-      <link rel="stylesheet" type="text/css" href="styleindex.css">
-  </head>
-  <body>
-      <div style="text-align:center; color:white;">
-          <a href="index2.html">Me clica pra ver a lista</a>
-          <p id="result">Ora ora quem será que está atrás das portas??</p>
-      </div>
-      <div id="o_pai_ta_on">
-          <div id="lampada1">
-              <img src="tom2.png" id="luz1">
+
+<head>
+	<meta charset="utf-8">
+	<title>Internet of Things</title>
+	<script src="javascript.js">
+	</script>
+	<link rel="stylesheet" type="text/css" href="styleindex.css">
+</head>
+
+<body>
+	<!--hey-->
+	<div style="text-align:center; color:white;">
+        <a href="dashboard.html"> Me clica pra ver um gráfico</a>
+        <br>
+		<a href="index2.html">Me clica pra ver a lista</a>
+		<p id="result">Ora ora quem será que está atrás das portas??</p>
+	</div>
+	<div id="o_pai_ta_on">
+		<div id="lampada1">
+			<img src="tom2.png" id="luz1">
               <br>
               <button type="button" onclick="tOn(1, 1)">Abrir</button>
               <button type="button" onclick="tOn(1, 0)">Fechar</button>

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<title>Internet of Things</title>
+	<script src="dash.js">
+	</script>
+	<link rel="stylesheet" type="text/css" href="styleindex.css">
+</head>
+
+<body>
+	<!--hey-->
+	<div style="text-align:center; color:white;">
+		<a href="index.html">Me clica pra voltar</a>
+		<!--<p id="result">Ora ora quem será que está atrás das portas??</p>-->
+	</div>
+	<div id="o_pai_ta_on" style="justify-content:center">
+		<div id="lampada1">
+			<img src="tom2.png" id="luz1">
+              <br>
+              <button type="button" onclick="tOn(1)">Abrir</button>
+              <button type="button" onclick="tOn(0)">Fechar</button>
+          </div>
+    </div>
+    <div style="text-align:center;">
+        <iframe width="450" height="260" style="border: 1px solid #cccccc;" src="https://thingspeak.com/channels/1329125/charts/1?bgcolor=%23ffffff&color=%23d62020&dynamic=true&results=60&type=line&update=15"></iframe>
+    </div>
+  </body>
+</html>
